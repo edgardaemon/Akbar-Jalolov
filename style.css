@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#nav_bar {
+    margin: 53px 150px 55px;
+    width: 580px;
+    height: 48px;
+    font-family: "Montserrat";    
+    font-weight: 600;
+    align-items: center;
+    word-spacing: 94px;
+    font-size: 16px;
+}
+
+#nav_bar a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#nav_bar a:visited{
+    color: black;
+    font-weight: 600;
+} 
+
+#nav_bar a:first-child {
+    color: #FA4A0C;
+}
+
+.background1 {
+    position: absolute;
+}
+
+.intro {
+    position: relative;
+    color: white;
+    width: 100%;
+    margin-top: 52px;
+}
+
+.intro h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 7px;
+}
+
+.intro h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.intro h4 {
+    font-family: "Montserrat";    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+
+}
+
+.intro button {
+    height: 60px;
+    width: 220px;
+    border-radius: 35px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Poppins";
+    letter-spacing: 0.1;
+    outline: none;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.intro button:first-of-type {
+    background-color: #FA4A0C;
+}
+
+.phone1 {
+    margin-top: -150px;
+}
+
+.line {
+    border: 3px solid #e4e4e4;
+    width: 800px;
+}
+
+.how_works h1 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 70px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.pages h3 {
+    color: #FA4A0C;
+    font-weight: 600;
+    padding: 7px;
+}
+
+.pages h2 {
+    font-weight: 700;
+    padding: 7px;
+}
+
+.pages h4 {
+    color: #737373;
+    font-weight: 500;
+    padding: 7px;
+
+}
+
+.background2 {
+    position: absolute;
+}
+
+.last_page h2 {
+    color: white;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.last_page h4 {
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+
+.last_page button {
+    height: 60px;
+    margin-top: 35px;
+    margin-left: 17px;
+    margin-right: 17px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Poppins";
+    letter-spacing: 0.1px;
+    outline: none;
+}
+
+.last_page button:first-of-type {
+    background-color: #FA4A0C;
+}
+
+.footer {
+    margin-top: 9%;
+    color: #FA4A0C;
+}
+
+.footer nav{
+    word-spacing: 24px;
+    margin-top: 25px;
+}
+
+.footer a:link {
+    color: #FA4A0C;
+    font-size: 40px;
+}
+
+.footer a:visited {
+    color: #FA4A0C;
+    font-size: 40px;
+}
+
+.footer p {
+    font-family: "Roboto";
+    color: #5C5C5C;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+
